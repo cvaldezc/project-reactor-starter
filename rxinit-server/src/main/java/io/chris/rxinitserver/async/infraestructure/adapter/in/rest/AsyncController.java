@@ -21,5 +21,6 @@ public class AsyncController {
     @GetMapping(produces = MediaType.APPLICATION_NDJSON_VALUE)
     public Flux<Data> async() {
         return asyncUseCase.getData().log();
+
     }
 }
