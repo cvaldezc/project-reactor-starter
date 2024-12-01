@@ -1,9 +1,9 @@
-package io.chris.reactorstudent.infraestructure.adapter.data.out;
+package io.chris.reactorstudent.infraestructure.adapter.out.sql;
 
-import io.chris.reactorstudent.aplication.student.ports.StudentPort;
+import io.chris.reactorstudent.aplication.student.ports.out.StudentRepositoryPort;
 import io.chris.reactorstudent.domain.student.model.Student;
-import io.chris.reactorstudent.infraestructure.adapter.data.out.mapper.StudentEntityMapper;
-import io.chris.reactorstudent.infraestructure.adapter.data.out.repository.StudentRepository;
+import io.chris.reactorstudent.infraestructure.adapter.out.sql.mapper.StudentEntityMapper;
+import io.chris.reactorstudent.infraestructure.adapter.out.sql.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 @Component
 @RequiredArgsConstructor
-public class StudentRepositoryAdapter implements StudentPort {
+public class StudentRepositoryAdapter implements StudentRepositoryPort {
 
     private final StudentRepository studentRepository;
     private final StudentEntityMapper mapper;

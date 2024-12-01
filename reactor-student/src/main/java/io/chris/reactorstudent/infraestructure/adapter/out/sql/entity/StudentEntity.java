@@ -1,4 +1,4 @@
-package io.chris.reactorstudent.infraestructure.adapter.data.out.entity;
+package io.chris.reactorstudent.infraestructure.adapter.out.sql.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

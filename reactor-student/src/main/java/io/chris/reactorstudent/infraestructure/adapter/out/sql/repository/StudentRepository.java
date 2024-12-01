@@ -1,6 +1,6 @@
-package io.chris.reactorstudent.infraestructure.adapter.data.out.repository;
+package io.chris.reactorstudent.infraestructure.adapter.out.sql.repository;
 
-import io.chris.reactorstudent.infraestructure.adapter.data.out.entity.StudentEntity;
+import io.chris.reactorstudent.infraestructure.adapter.out.sql.entity.StudentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

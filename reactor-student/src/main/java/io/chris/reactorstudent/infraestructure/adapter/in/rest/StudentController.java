@@ -1,4 +1,4 @@
-package io.chris.reactorstudent.infraestructure.adapter.rest.in;
+package io.chris.reactorstudent.infraestructure.adapter.in.rest;
 
 import io.chris.reactorstudent.aplication.student.ports.ConsultStudentUseCase;
 import io.chris.reactorstudent.aplication.student.ports.CreateStudentUseCase;

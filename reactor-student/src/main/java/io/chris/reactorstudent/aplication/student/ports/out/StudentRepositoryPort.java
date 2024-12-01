@@ -1,11 +1,11 @@
-package io.chris.reactorstudent.aplication.student.ports;
+package io.chris.reactorstudent.aplication.student.ports.out;
 
 import io.chris.reactorstudent.domain.student.model.Student;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface StudentPort {
+public interface StudentRepositoryPort {
 
     Student save(Student student);
 

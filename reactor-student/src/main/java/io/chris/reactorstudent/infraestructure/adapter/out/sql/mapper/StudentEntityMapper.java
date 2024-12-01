@@ -1,7 +1,7 @@
-package io.chris.reactorstudent.infraestructure.adapter.data.out.mapper;
+package io.chris.reactorstudent.infraestructure.adapter.out.sql.mapper;
 
 import io.chris.reactorstudent.domain.student.model.Student;
-import io.chris.reactorstudent.infraestructure.adapter.data.out.entity.StudentEntity;
+import io.chris.reactorstudent.infraestructure.adapter.out.sql.entity.StudentEntity;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
