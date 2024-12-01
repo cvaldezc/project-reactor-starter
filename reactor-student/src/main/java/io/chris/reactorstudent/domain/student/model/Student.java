@@ -2,12 +2,16 @@ package io.chris.reactorstudent.domain.student.model;
 
 import lombok.Builder;
 
-@Builder
+import java.time.LocalDateTime;
+
+@Builder(toBuilder = true)
 public record Student(
         Long id,
         String firstName,
         String lastName,
-        int age,
-        String email
-) {
+        Integer age,
+        String email,
+        Boolean active,
+        LocalDateTime createdAt,
+        LocalDateTime updatedAt) {
 }

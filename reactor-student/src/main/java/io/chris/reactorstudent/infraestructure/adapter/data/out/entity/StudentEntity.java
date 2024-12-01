@@ -30,5 +30,7 @@ public class StudentEntity {
     private LocalDateTime createdAt;
     @Column
     private LocalDateTime updatedAt;
+    @Column
+    private boolean active;
 }
 
