@@ -1,0 +1,11 @@
+services:
+  todorx:
+    image: todo-rx-r2dbc:latest
+    container_name: todorx
+    networks:
+      - app-network
+    ports:
+      - "8080:8080"
+networks:
+  app-network:
+    external: true
